@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+
+<script>
+
+class carros{
+    constructor(marca, modelo, ano, cor, preco){
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+        this.cor = cor;
+        this.preco = preco;
+    }
+
+    manejar(){
+        console.log("O carro está sendo dirigido.");
+    }
+    parar(){
+        console.log("O carro parou.");
+    }
+}
+
+const Micarro= new carros("Fiat", "Palio", 2010, "preto", 20000);
+console.log(Micarro.marca);
+
+
+
+</script>
+</html>
